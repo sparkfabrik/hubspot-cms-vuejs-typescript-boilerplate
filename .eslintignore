@@ -1,0 +1,11 @@
+**/*.js
+bin
+node_modules
+dist
+assets
+styles
+build
+libs
+coverage
+docker
+docs

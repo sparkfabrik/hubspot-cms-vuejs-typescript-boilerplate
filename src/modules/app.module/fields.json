@@ -1,0 +1,13 @@
+[
+  {
+    "default": 0,
+    "min": 0,
+    "max": 100,
+    "display": "slider",
+    "label": "Set the Vue factor",
+    "locked": false,
+    "name": "initial_count",
+    "required": false,
+    "type": "number"
+  }
+]

@@ -1,0 +1,14 @@
+{{ require_css(get_asset_url('../../main.css')) }}
+{{ require_js(get_asset_url('../../main.js')) }}
+{%- set instance_id = name %}
+
+<div class="hubspot-cms-vuejs-boilerplate">
+  <script type="application/json"
+    data-module-instance="{{ instance_id }}"
+    data-portal-id="{{ portalId }}"
+    data-assets-logo="{{ get_asset_url('/hubspot-cms-vuejs-boilerplate/assets/logo.png') }}">
+      {{ module|tojson }}
+  </script>
+
+  <div id="App--{{ instance_id }}"></div>
+</div>
