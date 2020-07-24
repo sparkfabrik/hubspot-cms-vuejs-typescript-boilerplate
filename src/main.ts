@@ -7,7 +7,7 @@ import './index.scss';
 Vue.config.productionTip = false;
 
 const targetModulesData: NodeListOf<HTMLElement> = document.querySelectorAll(
-  '.hubspot-cms-vuejs-boilerplate > script[type="application/json"]',
+  '.hubspot-cms-vuejs-typescript-boilerplate > script[type="application/json"]',
 );
 targetModulesData.forEach(({ dataset, textContent }) => {
   new Vue({

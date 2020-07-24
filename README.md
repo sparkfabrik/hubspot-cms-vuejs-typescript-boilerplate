@@ -1,4 +1,4 @@
-# HubSpot CMS Vue.js (2.x) Boilerplate
+# HubSpot CMS Vue.js (2.x) TypeScript Boilerplate
 
 ![prevue](./preview.gif)
 

@@ -88,7 +88,7 @@ const hubspotConfig = ({ portal, autoupload } = {}) => {
         portal,
         autoupload,
         src: "dist",
-        dest: "hubspot-cms-vuejs-boilerplate"
+        dest: "hubspot-cms-vuejs-typescript-boilerplate"
       }),
       new MiniCssExtractPlugin({
         filename: "[name].css"

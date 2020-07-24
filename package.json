@@ -1,12 +1,12 @@
 {
-  "name": "hubspot-cms-vuejs-boilerplate",
+  "name": "hubspot-cms-vuejs-typescript-boilerplate",
   "version": "0.1.0",
   "license": "Apache-2.0",
   "author": "Sparkfabrik",
   "scripts": {
     "start": "webpack --watch --env.autoupload --mode production",
     "build": "rm -Rf dist && webpack --mode production",
-    "deploy": "npm run build && hs upload dist hubspot-cms-vuejs-boilerplate",
+    "deploy": "npm run build && hs upload dist hubspot-cms-vuejs-typescript-boilerplate",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
