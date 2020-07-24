@@ -1,5 +1,3 @@
-uname_S := $(shell uname -s)
-
 all: build up
 
 build:
